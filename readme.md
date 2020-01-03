@@ -1,0 +1,2 @@
+#Register And Login Web Service
+It is a register and login WebService. User need to enter name, email-id, username and password in order to get register. User can login to it by entering email-id and password. Database used is MongoDb and passwords are stored into database in encrypted form using bcryptjs. Sessions are also maintained using JSON Web Tokens(JWT). On login first it is going to return token. 
